@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portal Page</title>
+  <link rel="stylesheet" href="../styles/style2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="../Images/logo.png" alt="Website Logo">
+</div>
+      <ul class="nav-links">
+        <li><a href="../portal_page/index.html">Home</a></li>
+        <li><a href="../wwr/index.html">WWR</a></li>
+        <li><a href="../ice/index.html">ICE</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+  <section class="hero">
+    <div class="hero-image">
+      <h1>Idaho Wildlife</h1>
+      <p>Explore the majestic animals of the Gem State.</p>
+      <a href="#wildlife-list">Jump to list</a>
+      <section class="animal-gallery">
+        <img src="images/elk.png" alt="Elk" class="animal-photo">
+        <img src="images/bear.png" alt="Grizzly Bear" class="animal-photo">
+        <img src="images/wolf.png" alt="Gray Wolf" class="animal-photo">
+</section>
+    </div>
+  </section>
+
+  <section class="content">
+    <h2 id="wildlife-list">Common Idaho Animals</h2>
+
+
+    <h3>Status Table</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Species</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+         <tr>
+          <td>Rocky Mountain Elk</td>
+          <td>Stable</td>
+        </tr>
+        <tr>
+          <td>Grizzly Bear</td>
+          <td>Endangered</td>
+        </tr>
+        <tr>
+          <td>Gray Wolf</td>
+          <td>Stable</td>
+        </tr>
+      </tbody>
+    </table>
+
+      <h4>Interests</h4>
+      <label><input type="checkbox" name="interests" value="Rocky Mountain Elk"> Rocky Mountain Elk</label><br>
+      <label><input type="checkbox" name="interests" value="bear"> Bear</label><br>
+      <label><input type="checkbox" name="interests" value="Wolf"> Wolf</label><br>
+
+      <h5><button type="submit">Submit</button></h5>
+      
+      <h6>Get Updates</h6>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="subscribe">Subscribe</button>
+    </form>
+  </section>
+</main>
+
+  <footer class="footer">
+    <p> © 2025 Cody Hewitt. All rights reserved.</p>
+  </footer>
+</body>
+</html>

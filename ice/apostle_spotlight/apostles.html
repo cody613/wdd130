@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            margin:0;
+            font-family: arial;
+            color: #E8ECED;
+            background-size: cover;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        .title {
+            font-size: 2em;
+            margin-top: 20px;
+            color: white;
+        }
+        .subtitle {
+            font-size: 1.5em;
+            margin: 40px 0 20px;
+            color: white;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .person {
+            width: 90px;
+            height: 90px;
+            border: 5px solid white;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        .person:hover {
+            border-color: blueviolet;
+        }
+        .person img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .statue {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            border-radius: 20px;
+            pointer-events: none;
+        }
+
+        .main-box {
+            position: relative;
+            overflow: hidden;
+            border: 5px solid black;
+            border-radius: 30px;
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 800px;
+            background-color: rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-box">
+        <img src="christus.webp" alt="Christus Statue" class="statue">
+        <div class="container">
+            <div class="title">First Presidency</div>
+            <div class="row">
+                <div class="person"><img src="oaks.webp" alt="Leader 1"></div>
+                <div class="person"><img src="nelson.webp" alt="Leader 2"></div>
+                <div class="person"><img src="eyring.webp" alt="Leader 3"></div>
+            </div>
+
+            <div class="subtitle">Quorum of the Twelve Apostles</div>
+            <div class="row">
+                <div class="person"><img src="holland.webp" alt="Apostle 1"></div>
+                <div class="person"><img src="uchtdorf.webp" alt="Apostle 2"></div>
+                <div class="person"><img src="bednar.webp" alt="Apostle 3"></div>
+                <div class="person"><img src="cook.webp" alt="Apostle 4"></div>
+            </div>
+            <div class="row">
+                <div class="person"><img src="christofferson.webp" alt="Apostle 5"></div>
+                <div class="person"><img src="anderson.webp" alt="Apostle 6"></div>
+                <div class="person"><img src="rasband.webp" alt="Apostle 7"></div>
+                <div class="person"><img src="stevenson.webp" alt="Apostle 8"></div>
+            </div>
+            <div class="row">
+                <div class="person"><img src="renlund.webp" alt="Apostle 9"></div>
+                <div class="person"><img src="gong.webp" alt="Apostle 10"></div>
+                <div class="person"><img src="soares.webp" alt="Apostle 11"></div>
+                <div class="person"><img src="kearon.webp" alt="Apostle 12"></div>
+            </div>
+    </div>
+  </div>
+</body>
+</html>
